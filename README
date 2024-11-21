@@ -1,0 +1,1 @@
+Simple application to index local files in a vector database with embeddings and then retrieve the most relevant ones based on a search query
