@@ -1,0 +1,17 @@
+README
+pyproject.toml
+setup.cfg
+src/els/__init__.py
+src/els.egg-info/PKG-INFO
+src/els.egg-info/SOURCES.txt
+src/els.egg-info/dependency_links.txt
+src/els.egg-info/top_level.txt
+src/els/cli/__init__.py
+src/els/cli/main.py
+src/els/embed/__init__.py
+src/els/embed/generate.py
+src/els/utils/__init__.py
+src/els/utils/files.py
+src/els/utils/mimetype.py
+src/els/utils/types/__init__.py
+src/els/utils/types/pdf.py

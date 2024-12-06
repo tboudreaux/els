@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: els
+Version: 0.1.0
+Summary: Simple Program to store files in a vector database and then search for them
+Author: Emily M. Boudreaux
+Author-email: emily@boudreauxmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+
+Simple application to index local files in a vector database with embeddings and then retrieve the most relevant ones based on a search query

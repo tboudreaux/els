@@ -1,1 +1,3 @@
 Simple application to index local files in a vector database with embeddings and then retrieve the most relevant ones based on a search query
+
+The ELS_MILVUS_HOST and ELS_MILVUS_PORT enviromental variables must be set to the host and port where the milvus database is running.

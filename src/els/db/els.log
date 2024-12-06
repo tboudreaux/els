@@ -1,0 +1,36 @@
+2024-12-06 17:09:02,554 - numexpr.utils - INFO - Note: NumExpr detected 56 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-06 17:09:08,622 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-12-06 17:09:08,622 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-06 17:09:24,298 - <class 'els.db.milvus.milvus'> - INFO - Initializing Milvus Connection
+2024-12-06 17:09:24,307 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' already exists.
+2024-12-06 17:09:24,309 - <class 'els.db.milvus.milvus'> - INFO - Connection Established
+2024-12-06 17:09:25,932 - pymilvus.decorators - ERROR - RPC error: [batch_insert], <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, {embedding} field should be a float_vector, but got a {<class 'float'>} instead.)>, <Time:{'RPC start': '2024-12-06 17:09:25.932103', 'RPC error': '2024-12-06 17:09:25.932331'}>
+2024-12-06 17:10:12,284 - pymilvus.decorators - ERROR - RPC error: [batch_insert], <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, {embedding} field should be a float_vector, but got a {<class 'float'>} instead.)>, <Time:{'RPC start': '2024-12-06 17:10:12.284599', 'RPC error': '2024-12-06 17:10:12.284679'}>
+2024-12-06 17:11:16,786 - pymilvus.decorators - ERROR - RPC error: [batch_insert], <MilvusException: (code=65535, message=the length(384) of float data should divide the dim(512))>, <Time:{'RPC start': '2024-12-06 17:11:16.772613', 'RPC error': '2024-12-06 17:11:16.786851'}>
+2024-12-06 17:13:23,397 - <class 'els.db.milvus.milvus'> - INFO - Initializing Milvus Connection
+2024-12-06 17:13:23,403 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' already exists. Deleting...
+2024-12-06 17:13:23,420 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' does not exist. Creating...
+2024-12-06 17:13:24,065 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' created successfully.
+2024-12-06 17:13:24,065 - <class 'els.db.milvus.milvus'> - INFO - Connection Established
+2024-12-06 17:14:21,193 - pymilvus.decorators - ERROR - RPC error: [query], <MilvusException: (code=1100, message=empty expression should be used with limit: invalid parameter)>, <Time:{'RPC start': '2024-12-06 17:14:21.180172', 'RPC error': '2024-12-06 17:14:21.193385'}>
+2024-12-06 17:14:25,508 - <class 'els.db.milvus.milvus'> - INFO - Initializing Milvus Connection
+2024-12-06 17:14:25,513 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' already exists. Deleting...
+2024-12-06 17:14:25,519 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' does not exist. Creating...
+2024-12-06 17:14:26,173 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' created successfully.
+2024-12-06 17:14:26,173 - <class 'els.db.milvus.milvus'> - INFO - Connection Established
+2024-12-06 17:14:30,669 - pymilvus.decorators - ERROR - RPC error: [query], <MilvusException: (code=1100, message=empty expression should be used with limit: invalid parameter)>, <Time:{'RPC start': '2024-12-06 17:14:30.667331', 'RPC error': '2024-12-06 17:14:30.669205'}>
+2024-12-06 17:15:21,255 - pymilvus.decorators - ERROR - RPC error: [query], <MilvusException: (code=101, message=failed to query: collection not loaded[collection=454427275198629483])>, <Time:{'RPC start': '2024-12-06 17:15:21.252919', 'RPC error': '2024-12-06 17:15:21.255200'}>
+2024-12-06 17:15:27,381 - <class 'els.db.milvus.milvus'> - INFO - Initializing Milvus Connection
+2024-12-06 17:15:27,385 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' already exists. Deleting...
+2024-12-06 17:15:27,394 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' does not exist. Creating...
+2024-12-06 17:15:28,073 - <func els.logging.logger.get_or_create_collection> - INFO - Collection 'els' created successfully.
+2024-12-06 17:15:28,073 - <class 'els.db.milvus.milvus'> - INFO - Connection Established
+2024-12-06 17:15:31,160 - pymilvus.decorators - ERROR - RPC error: [query], <MilvusException: (code=101, message=failed to query: collection not loaded[collection=454427275198829814])>, <Time:{'RPC start': '2024-12-06 17:15:31.158028', 'RPC error': '2024-12-06 17:15:31.160085'}>
+2024-12-06 17:21:16,244 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-12-06 17:21:16,245 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-06 17:30:54,994 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-12-06 17:30:54,994 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-06 17:31:27,371 - pymilvus.decorators - ERROR - RPC error: [search], <MilvusException: (code=1100, message=failed to create query plan: cannot parse expression: distance < inf, error: field distance not exist: invalid parameter)>, <Time:{'RPC start': '2024-12-06 17:31:27.332899', 'RPC error': '2024-12-06 17:31:27.371242'}>
+2024-12-06 17:31:41,087 - pymilvus.decorators - ERROR - RPC error: [search], <MilvusException: (code=1100, message=failed to create query plan: cannot parse expression: distance < 1, error: field distance not exist: invalid parameter)>, <Time:{'RPC start': '2024-12-06 17:31:41.085984', 'RPC error': '2024-12-06 17:31:41.087767'}>
+2024-12-06 17:39:38,688 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-12-06 17:39:38,688 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

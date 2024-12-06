@@ -30,5 +30,22 @@ class filer:
             else:
                 if out['text'].get(mime, ...) == ...:
                     out['text'][mime] = {}
-                out['text'][fileHash] = filePath
+                out['text'][mime][fileHash] = filePath
         return out
+
+    def __repr__(self):
+        return f"filer: {self.files}"
+
+
+def index_directory(root, recursive=False):
+    f = filer()
+    if recursive:
+        for p in pathlib.Path(root).rglob('*'):
+            if p.is_file():
+                f.enroll(p)
+    else:
+        for p in pathlib.Path(root).iterdir():
+            if p.is_file():
+                f.enroll(p)
+    return f
+
